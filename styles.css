@@ -209,4 +209,24 @@ button {
     justify-content: center; 
     align-items: center;
   }
+  #display {
+    padding-left: 2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .box-container {
+    padding: 0 20px;
+    width: 100%;
+  }
+  #display {
+    padding-left: 1rem;
+  }
+  #result {
+    height: 200px;
+    width: 300px;
+    padding: 1rem;
+  }
+  #result button{
+    width: 200px;
+  }
 }
