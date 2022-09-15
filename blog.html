@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,41 @@
     <title>Assignment 7 Q&A</title>
     <link rel="stylesheet" href="blog.css">
 </head>
+
 <body>
     <h1>Question And Answer</h1>
     <section class="answerSection">
         <div class="card">
             <h2>Question 1: Difference between local storage and session storage</h2>
             <h3>Answer :</h3>
-            <p>sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab.</p>
+            <p>sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't
+                expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a
+                particular tab in the browser, a unique page session gets created and assigned to that particular tab.
+            </p>
         </div>
         <div class="card">
-            <h2>Question 2: </h2>
+            <h2>Question 2: Difference between global scope and block scope</h2>
+            <h3>Answer :</h3>
+            <p>The Javascript global scope is the context where everything in a Javascript program executes by default. This scope includes all variables, objects, and references that are not contained within a customized scope defined by a programmer. Global scope is the entire Javascript execution environment. <br> Block scoped variables: A block scoped variable means that the variable defined within a block will not be accessible from outside the block. A block can reside inside a function, and a block scoped variable will not be available outside the block even if the block is inside a function.</p>
         </div>
         <div class="card">
-            <h2>Question 3: </h2>
+            <h2>Question 3: How does JavaScript Event loop work</h2>
+            <h3>Answer :</h3>
+            <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack
+                is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack,
+                which effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
         </div>
         <div class="card">
-            <h2>Question 4: </h2>
+            <h2>Question 4: How many ways can we get undefined javascript</h2>
+            <h3>Answer :</h3>
+            <ol>
+                <li>Variable that is not initialized will give undefined</li>
+                <li>Function with no return</li>
+                <li>Parameter that is not passed will be undefined</li>
+                <li>If return has nothing on the right will return undefined</li>
+            </ol>
         </div>
     </section>
 </body>
+
 </html>
